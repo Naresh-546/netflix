@@ -46,9 +46,6 @@ const Banner = () => {
             {truncate(movie?.overview, 200)}
             
         </h1>
-        {/* <h1 className="banner__description">
-             popularity: {movie?.popularity}
-        </h1> */}
         <div className="banner--fadeBottom"></div>
       </div>
     </header>
